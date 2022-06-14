@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: black;
+    }
+    .logoSize {
+      height: auto;
+      width: 100%;
+    }
+    .scale-in-hor-center {
+      background-color: gray;
+    }
+    .welcome {
+      color: azure;
+    }
+    /* PLANES 768px RESPONSIVE */
+    .planes768 {
+      color: azure;
+    }
+    /* ACTIVIDADADES 768px RESPONSIVE */
+    .h1Activ {
+      color: azure;
+    }
+    /* SEDES 768px RESPONSIVE */
+    .h1Sede1 {
+      color: azure;
+    }
+    /* QUIENESSOMOS 768px RESPONSIVE */
+    .Quienesh1p {
+      color: azure;
+    }
+    /* CONTACTO 768px RESPONSIVE */
+    .maindiv {
+      color: azure;
+    }
+}
+  
+@media only screen and (max-width: 480px) {
+    
+    /* INDEX.HTML RESPONSIVE */
+    
+  body {
+      background-color: gray;
+      text-align: center;
+    }
+
+  header {
+      width: 100%;
+    }
+
+  .navnav {
+      width: 100%;
+    }
+
+  .logoSize {
+      height: auto;
+      width: 100%;
+    }
+
+  .nav {
+      height: 35px;
+      width: 100%;
+    }
+
+  footer {
+      width: 100%;
+      padding-top: 10px;
+      font-family: $fuenteTipo;
+      background-color: #1a1a1a;
+      color: #ffae00;
+      position: static;
+      text-align: center;
+      font-size: 9px;
+  }
+
+    /* ACTIVIDADES.HTML RESPONSIVE */
+
+  .mainActividades {
+      box-sizing: border-box;
+      padding: 0;
+      margin-top: 10px;
+  }
+
+  .h1yp {
+      background-color: #ffae00;
+      margin-top: 125px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      align-items: center;
+  }
+
+  .h1yp h1 {
+      display: none;
+  }
+
+  .videitoActividades video {
+      box-sizing: border-box;
+      max-width: 30rem;
+      max-height: 20rem;
+      margin: 10px 1px 1px -20px;
+  }
+
+    /* PLANES.HTML RESPONSIVE */
+
+  .contenedorPlanes {
+      width: auto;
+      margin-top: 20px;
+  }
+    /* SEDES R E S P O N S I V E */
+
+  .mapaSedes {
+      color: black;
+      font-size: 1.7rem;
+  }
+
+  iframe {
+      box-sizing: border-box;
+      width: 50vh;
+      height: 50vh;
+  }
+    /* QUIENES SOMOS .HTML RESPONSIVE */
+
+  .quienesP {
+      background-color: #ffa600;
+      font-size: 1rem;
+  }
+    /* CONTACTO.HTML RESPONSIVE */
+    
+  .contactmain {
+      height: 50vp;
+  }
+}
