@@ -1,0 +1,22 @@
+$miMapa: (
+    10px: orange,
+    20px: red,
+    30px: yellow, 
+
+    );
+
+    @each $medida, $color in $miMapa {
+        .tu-#{$color} {
+            
+            height: 100px;
+            text-align: center;
+            font-size: $medida;
+            color: $color;
+        }
+    } 
+
+    .miMapa{
+        margin-top: 20px;
+        border-top: 1px solid gray;
+        height: 80%;
+    }

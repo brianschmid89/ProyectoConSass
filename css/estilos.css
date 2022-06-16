@@ -52,8 +52,36 @@ body {
     transform: scaleX(1);
     opacity: 1; } }
 
+.tu-orange {
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+  color: orange; }
+
+.tu-red {
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: red; }
+
+.tu-yellow {
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: yellow; }
+
+.miMapa {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  height: 80%; }
+
 /* CSS INDEX */
 .text-focus-in2 {
+  margin-top: 10px;
+  background-color: #c41818;
+  color: black;
+  font-size: 2rem;
+  border-radius: 10px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
