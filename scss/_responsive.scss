@@ -21,7 +21,7 @@
       color: azure;
     }
     /* SEDES 768px RESPONSIVE */
-    .h1Sede1 {
+    .mapaSedes {
       color: azure;
     }
     /* QUIENESSOMOS 768px RESPONSIVE */
@@ -55,7 +55,10 @@
       height: auto;
       width: 100%;
     }
-
+  
+   .text-focus-in2{
+    color:azure;
+  }
   .nav {
       height: 35px;
       width: 100%;
@@ -107,11 +110,13 @@
       margin-top: 20px;
   }
     /* SEDES R E S P O N S I V E */
-
-  .mapaSedes {
-      color: black;
+ 
+    .mapaSedes {
+      color: azure;
       font-size: 1.7rem;
   }
+
+
 
   iframe {
       box-sizing: border-box;

@@ -52,6 +52,26 @@ body {
     transform: scaleX(1);
     opacity: 1; } }
 
+.button, .button1, .button2 {
+  font: bold 20px "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-radius: 4px;
+  border-top: 5px solid #CCCCCC;
+  border-right: 3px solid #333333;
+  border-bottom: 5px solid #333333;
+  border-left: 3px solid #CCCCCC; }
+
+.button1 {
+  background-color: yellow;
+  color: black; }
+
+.button2 {
+  background-color: gainsboro;
+  color: red; }
+
 .tu-orange {
   height: 100px;
   text-align: center;
@@ -67,8 +87,14 @@ body {
 .tu-yellow {
   height: 100px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: yellow; }
+
+.tu-tomato {
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: tomato; }
 
 .miMapa {
   margin-top: 20px;
@@ -227,7 +253,7 @@ video {
   .h1Activ {
     color: azure; }
   /* SEDES 768px RESPONSIVE */
-  .h1Sede1 {
+  .mapaSedes {
     color: azure; }
   /* QUIENESSOMOS 768px RESPONSIVE */
   .Quienesh1p {
@@ -248,6 +274,8 @@ video {
   .logoSize {
     height: auto;
     width: 100%; }
+  .text-focus-in2 {
+    color: azure; }
   .nav {
     height: 35px;
     width: 100%; }
@@ -285,7 +313,7 @@ video {
     margin-top: 20px; }
   /* SEDES R E S P O N S I V E */
   .mapaSedes {
-    color: black;
+    color: azure;
     font-size: 1.7rem; }
   iframe {
     box-sizing: border-box;

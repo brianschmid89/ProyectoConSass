@@ -1,13 +1,13 @@
 $miMapa: (
     10px: orange,
     20px: red,
-    30px: yellow, 
+    25px: yellow, 
+    30px: tomato,
 
     );
 
     @each $medida, $color in $miMapa {
         .tu-#{$color} {
-            
             height: 100px;
             text-align: center;
             font-size: $medida;
