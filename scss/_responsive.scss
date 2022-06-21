@@ -29,10 +29,25 @@
       color: azure;
     }
     /* CONTACTO 768px RESPONSIVE */
-    .maindiv {
+    .tracking-in-expand{
       color: azure;
     }
-}
+    .formularioNuevo{
+      margin-left: 0;
+    }
+    .col-sm-4redesSociales{
+      width: 50%;
+    }
+    .col-sm-2redesSociales2{
+      width: 16.66666667%;
+    }
+    .col-sm-2redesSociales3{
+      width: 16.66666667%;
+    }
+    .col-sm-1{
+      width: 50%;
+    }
+  }
   
 @media only screen and (max-width: 480px) {
     
@@ -64,7 +79,7 @@
       width: 100%;
     }
 
-  footer {
+/*   footer {
       width: 100%;
       padding-top: 10px;
       font-family: $fuenteTipo;
@@ -73,7 +88,7 @@
       position: static;
       text-align: center;
       font-size: 9px;
-  }
+  } */
 
     /* ACTIVIDADES.HTML RESPONSIVE */
 

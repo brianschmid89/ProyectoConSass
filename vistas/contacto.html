@@ -39,45 +39,68 @@
     </header>   
 
 <main>
-    <div class="row col-md-12 contactmain">
-        <div class="maindiv tracking-in-expand">
-            <h1 class="contachH1">¡CONTACTATE CON NOSOTROS!</h1>
-        </div>
-    <Fieldset class="formConta">
-        <form action="" method="get" enctype="text/plain">
-            <div>
-                <label for="userName">Nombre</label>
-                <input type="text" name="userName" id="userName">
-            </div>
-            <div>
-                <label for="userName">Apellido</label>
-                <input type="text" name="userName" id="userName">
-            </div>
-            <div>
-                <label for="telefono">Telefono</label>
-                <input type="number" name="userNumber" id="telefono">
-            </div>
-                <label for="userText">Dejanos tu mensaje!</label>
-                <textarea name="userText" id="userText" cols="15" rows="5" name="userText"></textarea>
-            <div>
-                <input type="submit" value="ENVIAR">
-                <input type="reset" value="LIMPIAR FORMULARIO">
-            </div>
-        </form>
-    </Fieldset>
+<!-- Default form contact -->
+<div class="row contactmain justify-content-center">
+    <p class="h1 h1Contacto tracking-in-expand mb-4">CONTACTATE CON NOSOTROS!!!</p>
+</div>
+<form class="col-md-6 formularioNuevo text-center border border-light p-5 shadow mb-5 rounded" action="#!">
+
+    <!-- Nombre -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Desplegable -->
+    <label>Tema</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="" disabled>Seleccionar opción</option>
+        <option value="1" selected>Feedback</option>
+        <option value="2">Reportar un problema</option>
+        <option value="3">Sugerencias</option>
+        <option value="4">Contanos tu experiencia</option>
+    </select>
+
+    <!-- Mensaje -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje"></textarea>
     </div>
+
+    <!-- Copia del mensaje -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Enviarme una copia de este mensaje</label>
+    </div>
+
+    <!-- Boton enviar -->
+    <button class="btnContact btn-info btn-block" type="submit">ENVIAR</button>
+
+</form>
+<!-- Default form contact -->
 </main>
 <footer>
-    <div class="footer">
-        <ul class="footer__footie">
-           <p><b>CONTACTO:</b> 0261-156770857</p>
-           <p><b>INSTAGRAM:</b> @SportClubOficial</p>
-           <p><b>YOUTUBE:</b> SportClub.Oficial</p>
-           <p><b>TELEGRAM:</b> 0261-156770857</p>
-           <h4 class="footerH4">TODOS LOS DERECHOS RESERVADOS © 2022</h4>
-        </ul>
-    </div>    
-</footer>
+    <div class="containerFluid2">
+      <div class="row2">
+          <div class="col-sm-6redesSociales">
+            <p class="pdelFooter">Seguinos en nuestras redes!!!</p>
+            <div class="col-sm-1redesSociales">
+                <a href="https://www.youtube.com/c/SPORTCLUBOFICIAL"><strong>YouTube @SPORTCLUB</strong></a>
+            </div>
+              <div class="col-sm-1redesSociales2">
+                <a href="https://twitter.com/sportclub_gym"><strong>Twitter @SPORTCLUB_GYM</strong></a>
+              </div>
+              <div class="col-sm-1redesSociales3">
+                <a href="https://www.instagram.com/sportcluboficial/"><strong>Instagram @SPORTCLUBOFICIAL</strong></a>
+              </div>  
+              <div class="col-md-12">
+                <a href="http://qr.afip.gob.ar/?qr=LIyFc_ky1koufVv19jlEKA,," class="" target="_blank">
+                  <img src="https://assets.website-files.com/6006f5bf87d96d2131258ef0/604791f3776bf645d9433389_DATAWEB.jpg" loading="lazy" alt="" class="" style="width:70px">
+                </a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

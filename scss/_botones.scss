@@ -1,7 +1,7 @@
 .button {
     font: bold 20px $fuenteTipo;
     text-decoration: none;
-    background-color: red;
+    background-color: #c41818;
     color: white;
     padding: 2px 6px 2px 6px;
     border-radius: 4px;
@@ -20,6 +20,11 @@
 .button2 {
     @extend .button;
     background-color: gainsboro;
-    color:red;
+    color:$colorFondo;
 }
 
+.btnContact{
+    @extend .button;
+    box-shadow: 5px 10px 35px;
+
+}
