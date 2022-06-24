@@ -10,7 +10,13 @@
     border-bottom: 5px solid #333333;
     border-left: 3px solid #CCCCCC;
 }
-
+.botonesFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
 .button1 {
     @extend .button;
     background-color: yellow;

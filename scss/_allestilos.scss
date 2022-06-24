@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@700&family=Readex+Pro:wght@200&family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@700&family=Quicksand:wght@500&family=Readex+Pro:wght@200&family=Roboto:wght@300;900&display=swap');
 
 
   /* CSS INDEX */
 .text-focus-in2 {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: #c41818;
     font-family: $fuenteTipo2;
     box-shadow: 3px 6px 9px #000000;
@@ -89,13 +89,13 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
   
 video {
-    width: 75%;
-    height: auto;
+    width: 85%;
+    height: 80%;
     margin: 1.25rem;
 }
   

@@ -122,21 +122,31 @@
   }
 
 
-
-  iframe {
+iframe {
       box-sizing: border-box;
       width: 50vh;
       height: 50vh;
-  }
+}
     /* QUIENES SOMOS .HTML RESPONSIVE */
 
-  .quienesP {
+.quienesP {
       background-color: #ffa600;
       font-size: 1rem;
-  }
+}
     /* CONTACTO.HTML RESPONSIVE */
     
-  .contactmain {
+.contactmain {
       height: 50vp;
-  }
+}
+    /* FOOTER RESPONSIVE */
+
+.footer__text1{
+  font-size: 1rem;
+}
+.footer__text2{
+  font-size: 2rem;
+}
+.footer__text3{
+  font-size: 1rem;
+}
 }
